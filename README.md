@@ -1,4 +1,12 @@
-# Getting Started with Create React App
+# React Movies App
+
+<img src="./public/images/app.png">
+
+#   Fetch data and show feature movies when application run
+#   Search new movies through search field 
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
