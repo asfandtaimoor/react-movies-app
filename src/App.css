@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
+/* search box */
+.input-group > input {
+  background-color: #090960;
+  border-color: #090960;
+}
+/* Search box on focus */
+.input-group > input {
+  background-color: #262677;
+  border-color: #090960;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btn {
+  background-color: #15158d;
+  border-color: #0b0baa;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.btn:hover {
+  color: rgb(26, 131, 216);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* input place holder color */
+.input-group > input::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+.input-group > input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+
+.input-group > input::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
 }
